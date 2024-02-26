@@ -1,8 +1,9 @@
+
 # Planeamento
 
 Clientes podem reservar os produtos que estão na loja se o produto estiver em stock.  
 Administrador pode aceitar ou recusar a reserva. Se aceitar a reserva, o cliente recebe uma notificação para ir buscar o produto na loja e efetuar o pagamento na loja.  
-Os Clientes podem marcar:  
+- Os Clientes podem marcar:  
     * Fisioterapia desportiva  
     * Fisioterapia  
     * Reabilitação desportiva   
