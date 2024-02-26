@@ -11,5 +11,6 @@ Administrador pode aceitar ou recusar a reserva. Se aceitar a reserva, o cliente
     * Massagem de relaxamento  
     * Massagem descontrotaturante  
     * Drenagem linfática  
-    * Knesio taping  
+    * Knesio taping
+       
 O administrador pode aceitar ou recusar as marcações, quando aceitar a marcação, o cliente irá receber uma notificação a dizer que foi marcado. 
