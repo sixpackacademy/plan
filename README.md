@@ -26,21 +26,7 @@ Product(id, name, description, stock, price)
 
 Relações
 ```
-ServiceAppointment(id, date, hour, User, Service, status, is_approved, approved_by)
-ProductReservation(id, User, Product, status, is_approved, approved_by)
+ServiceAppointment(id, date, hour, User, Service, status, is_approved, approved_by) (1:N)
+ProductReservation(id, User, Product, status, is_approved, approved_by) (1:N)
 ```
 
-## Diagrama Entidade-Relacionamento (ERD)
-```
-erDiagram
-    User { id, username, first_name, last_name, num_telemovel, email, password, is_admin }
-    Service { id, nome, description, duration, price }
-    Product { id, name, description, stock, price }
-
-    User --(1:N)-- ProductReservation { id, status, is_approved, approved_by (User) }
-    Product --(N:1)-- ProductReservation
-
-    User --(1:N)-- ServiceAppointment { id, date, hour, status, is_approved, approved_by (User) }
-    Service --(N:1)-- ServiceAppointment
-
-```
