@@ -29,4 +29,5 @@ Relações
 ServiceAppointment(id, date, hour, User, Service, status, is_approved, approved_by) (1:N)
 ProductReservation(id, User, Product, status, is_approved, approved_by) (1:N)
 ```
-
+### Diagrama
+![diagrama](https://raw.githubusercontent.com/sixpackacademy/plan/908f626113453669412213cc7c02e487a49274f9/diagrama.drawio.png)
