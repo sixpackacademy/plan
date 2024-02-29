@@ -26,6 +26,7 @@ Product(id, name, description, stock, price)
 
 Relações
 ```
-ServiceAppointment(id, date, hour, User, Service, status, is_approved, approved_by)
-ProductReservation(id, User, Product, status, is_approved, approved_by)
+ServiceAppointment(id, date, hour, User, Service, status, is_approved, approved_by) (1:N)
+ProductReservation(id, User, Product, status, is_approved, approved_by) (1:N)
 ```
+
