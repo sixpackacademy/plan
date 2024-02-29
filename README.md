@@ -19,7 +19,7 @@ O administrador pode aceitar ou recusar as marcações, quando aceitar a marcaç
 
 Entidades
 ```
-User(id, username, first_name, last_name, num_telemovel, email, password, is_admin)
+User(id, username, first_name, last_name, phone_num, email, password, is_admin)
 Service(id, nome, description, duration, price)
 Product(id, name, description, stock, price)
 ```
